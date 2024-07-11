@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background-color: #f7edff;
+}
+
+.buttons{
+  margin: 50px;
+}
+
+.buttons button{
+  background-color: #333;
+  color: #fff;
+  border: 0;
+  outline: 0;
+  padding: 5px 15px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 2px;
+  box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.buttons button:active{
+  opacity: 90%;
+  box-shadow: none;
+}
+
+#toast-box{
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.toast{
+  width: 300px;
+  height: 50px;
+  background-color: #fff;
+  font-weight: 500;
+  margin: 15px 0;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
