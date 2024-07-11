@@ -52,3 +52,17 @@ body{
   align-items: center;
   padding-left: 20px;
 }
+
+.toast i{
+  margin: 0 20px;
+  font-size: 25px;
+  color: green;
+}
+
+.toast.error i{
+  color: red;
+}
+
+.toast.invalid i{
+  color: orange;
+}
